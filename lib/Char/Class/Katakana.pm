@@ -35,6 +35,8 @@ sub InKatakanaAll {
 30A1	30FA	
 30FD	30FF	
 31F0	31FF	
+FF67	FF6F	
+FF71	FF9D	
 1B000
 1B164	1B167	
 2A708
@@ -54,6 +56,7 @@ EOH
 sub InKatakanaHatsuon {
 <<EOH;
 30F3
+FF9D
 EOH
 }
 
@@ -88,6 +91,8 @@ sub InKatakanaSeion {
 30E6
 30E8	30ED	
 30EF	30F2	
+FF66
+FF71	FF9C	
 EOH
 }
 
@@ -115,6 +120,7 @@ sub InKatakanaSmall {
 30EE
 30F5	30F6	
 31F0	31FF	
+FF67	FF6F	
 1B164	1B167	
 EOH
 }

@@ -31,14 +31,16 @@ Char::Class::Kana - Regular Expression Character Classes - C<Kana>
 
 sub InKanaAll {
 <<EOH;
+27B0
 3006
-3031	3035	
+3030	3035	
 303B
 3041	3096	
 3099	309F	
 30A1	30FA	
 30FC	30FF	
 31F0	31FF	
+FF67	FF9D	
 1B000	1B11E	
 1B150	1B152	
 1B164	1B167	
@@ -63,6 +65,7 @@ sub InKanaHatsuon {
 <<EOH;
 3098
 30F3
+FF9D
 EOH
 }
 
@@ -126,6 +129,8 @@ sub InKanaSeion {
 30E6
 30E8	30ED	
 30EF	30F2	
+FF66
+FF71	FF9C	
 EOH
 }
 
@@ -169,6 +174,7 @@ sub InKanaSmall {
 30EE
 30F5	30F6	
 31F0	31FF	
+FF67	FF6F	
 1B150	1B152	
 1B164	1B167	
 EOH
